@@ -7,7 +7,7 @@ class NodoTriaje:
         self.si = None
         self.no = None
 
-class ArbolTriajeBinario:
+class ArbolBinario:
     def __init__(self):
         self.raiz = self._construir_arbol()
 
@@ -50,11 +50,10 @@ class GrafoAgendaPonderado:
     def __init__(self):
         self.red_medica = {
             "Medicina General": {
-                "Dra. Mariela Hurtado": [{"horario": "Hoy 11:00 AM", "espera_horas": 0.5}, {"horario": "Hoy 03:00 PM", "espera_horas": 4.5}],
                 "Dr. Fernando Duarte": [{"horario": "Hoy 01:30 PM", "espera_horas": 3.0}]
             },
             "Cardiología": {
-                "Dr. Ivanna Icasa": [{"horario": "Hoy 11:30 AM", "espera_horas": 1.0}]
+                "Dra. Ivanna Icasa": [{"horario": "Hoy 11:30 AM", "espera_horas": 1.0}]
             },
             "Pediatría": {
                 "Dra. Lucía Martínez": [{"horario": "Hoy 02:00 PM", "espera_horas": 3.5}]
